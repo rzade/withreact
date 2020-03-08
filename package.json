@@ -1,6 +1,8 @@
 {
   "name": "withreact",
   "version": "1.0.0",
+  "author": "Rahman Qadirzade",
+  "private": true,
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +12,6 @@
     "start": "webpack --config webpack.production.config.js && nodemon api/index.js"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
